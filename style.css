@@ -1,42 +1,64 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
+  background: #0f172a;
+  color: #e2e8f0;
   margin: 0;
   padding: 0;
-  background: #0f172a;
-  color: #f1f5f9;
-}
-
-header {
-  background: #1e293b;
-  padding: 20px;
-  text-align: center;
-}
-
-nav a {
-  color: #38bdf8;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-section {
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
+  line-height: 1.6;
 }
 
 h1, h2 {
   color: #38bdf8;
 }
 
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
 ul {
-  list-style: square;
   padding-left: 20px;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero {
+  background: #1e293b;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.grid li {
+  background: #1e293b;
+  padding: 10px 15px;
+  border-radius: 6px;
 }
 
 footer {
   text-align: center;
-  padding: 10px;
   background: #1e293b;
+  padding: 20px;
   color: #94a3b8;
 }
