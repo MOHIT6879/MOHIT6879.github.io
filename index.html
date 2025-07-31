@@ -14,20 +14,21 @@
       color: #222;
       line-height: 1.6;
     }
-    .hero {
-      text-align: center;
-      padding: 100px 20px 60px;
-      background: linear-gradient(120deg, #667eea, #764ba2);
-      color: white;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-    .hero p {
-      font-size: 1.3rem;
-      margin-bottom: 20px;
-    }
+.hero {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 600px;
+}
     .cta-buttons a {
       display: inline-block;
       margin: 10px;
@@ -125,17 +126,21 @@
 </head>
 <body>
   <!-- Hero Section -->
-  <section class="hero">
-    <h1>Gajji Mohit Yadav</h1>
-    <p>AI Engineer | ML/DL | GenAI | Full Stack Developer</p>
-    <div class="cta-buttons">
-      <a href="#contact">Contact Me</a>
-      <a href="Gajji Mohit Yadav_resume.pdf" download>Download Resume</a>
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Gajji Mohit Yadav</h1>
+      <p>AI Engineer | ML/DL | GenAI | Full Stack Developer</p>
+      <div class="cta-buttons">
+        <a href="#contact">Contact Me</a>
+        <a href="Gajji Mohit Yadav_resume.pdf" download>Download Resume</a>
+      </div>
     </div>
     <div class="hero-image">
       <img src="1.png" alt="Gajji Mohit Yadav">
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- About Me -->
   <section class="section" id="about">
